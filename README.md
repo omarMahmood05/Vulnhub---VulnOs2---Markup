@@ -1,10 +1,10 @@
-# VulnHub - PwnLab
+# VulnHub - VulnOs2
 
-[Vulnhub Link](https://www.vulnhub.com/entry/pwnlab-init,158/)
+[Vulnhub Link](https://www.vulnhub.com/entry/vulnos-2,147/)
 
 ## Step 0 - Pre-requisite
 
-Begin by downloading the [pwnlab.ova](https://download.vulnhub.com/pwnlab/pwnlab_init.ova) (Mirror file [[mirror]](https://mega.nz/#!iAVXDKaC!Fwjd20Jv_2ErRpGVOzpgFlmPHBN-E-kb63CWogjoKw0)) file to kickstart the installation process.
+Begin by downloading the [vulnos2.ova](https://download.vulnhub.com/vulnos/VulnOSv2.7z) file to kickstart the installation process.
 
 Next, launch Oracle VM VirtualBox and navigate to File > Import Appliance.
 ![Import Appliance](https://github.com/omarMahmood05/FunBox-1-Pentesting/assets/86721437/df98cf82-b1be-4b90-867c-cc8e8674449f)
@@ -22,7 +22,7 @@ Click "Next" and specify the desired installation location for the machine. Conf
 
 Wait for VM VirtualBox to import the appliance.
 
-Now that the your machine is successfully installed, let's ensure it shares the same network as our Kali Machine.
+Now that your machine is successfully installed, let's ensure it shares the same network as our Kali Machine.
 
 To achieve this, right-click on your machine, navigate to settings, access the network tab, and select the advanced option. Opt for paravirtualized network.
 
